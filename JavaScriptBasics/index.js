@@ -24,6 +24,7 @@ Variable Mutation and Type Coersion
 ***********************************/
 
 // **Type Coersion
+// let him = 'Man';
 let firstName = 'John';
 let age = 28;
 console.log(firstName + " " + age);
