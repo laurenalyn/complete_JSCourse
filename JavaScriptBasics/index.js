@@ -4,10 +4,38 @@
     // booleans (true / false)
     // undefinded (no value)
     // null (does not exist)
-    let firstName = 'John';
-    let lastName = 'Smith';
-    let age = 28;
-    let fullAge = true;
-    let job;  //undefined variable   
-    job = 'Teacher'; // defines job variable
-    
+
+/**********************************
+Variables and Data Types
+***********************************/ 
+/*
+let firstName = 'John';
+let lastName = 'Smith';
+let age = 28;
+let fullAge = true;
+let job;  //undefined variable   
+job = 'Teacher'; // defines job variable
+
+console.log(firstNam + " " + age);
+*/
+
+/**********************************
+Variable Mutation and Type Coersion
+***********************************/
+
+// **Type Coersion
+let firstName = 'John';
+let age = 28;
+console.log(firstName + " " + age);
+let job, isMarried;  // declares multiple variables at a time - without defining them
+job = 'Teacher';
+isMarried = false;
+console.log(firstName + ' is a ' + age + ' year old ' + job + '. Is he married? ' + isMarried);
+
+// **Variable Mutation
+age = 'twenty-eight';
+job = 'driver';
+alert(firstName + ' is a ' + age + ' year old ' + job + '. Is he married? ' + isMarried);
+
+let lastName = prompt('What is his lastName?');
+console.log(firstName + ' ' + lastName);
