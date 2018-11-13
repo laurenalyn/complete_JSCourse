@@ -23,8 +23,8 @@ console.log(firstNam + " " + age);
 Variable Mutation and Type Coersion
 ***********************************/
 
+/*
 // **Type Coersion
-// let him = 'Man';
 let firstName = 'John';
 let age = 28;
 console.log(firstName + " " + age);
@@ -40,3 +40,20 @@ alert(firstName + ' is a ' + age + ' year old ' + job + '. Is he married? ' + is
 
 let lastName = prompt('What is his lastName?');
 console.log(firstName + ' ' + lastName);
+*/
+
+/**********************************
+Basic Operators
+***********************************/
+
+let year, yearJohn, yearMark; 
+now = 2018;
+ageJohn = 28;
+ageMark = 33;
+console.log(now);
+
+yearJohn = now - ageJohn;
+yearMark = now - ageMark;
+
+console.log(yearJohn);
+console.log(yearMark);
